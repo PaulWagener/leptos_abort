@@ -1,0 +1,9 @@
+[package]
+name = "leptos_abort"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wasm-bindgen-test = "0.3.36"
+web-sys = { version = "0.3.63", features = ["AbortController", "AbortSignal"] }
+leptos_reactive = "0.3.0"
